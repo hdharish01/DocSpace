@@ -1,5 +1,11 @@
+import { Editor } from "@/components/editor/Editor";
+import Header from "@/components/Header";
+
 export default function Document(){
     return <div>
-        Documents
+        <Header>
+            Hello
+        </Header>
+        <Editor />
     </div>
 }
