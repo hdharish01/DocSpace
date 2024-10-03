@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 export default function Document(){
     return <div>
         <Header>
-            Hello
+            <p className="text-white">Test</p>
         </Header>
         <Editor />
     </div>
