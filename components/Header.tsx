@@ -1,10 +1,11 @@
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
 
-export default function Header({children}:HeaderProps){
+export default function Header({children,className}:HeaderProps){
     return <div className="header">
-        <Link href={'/'} className="md:flex-1">
+        <Link href={'/'} className={cn("md:flex-1",className)}>
             <Image 
                 src="/assets/icons/newlogo-large.png"
                 alt="Logo with name"
